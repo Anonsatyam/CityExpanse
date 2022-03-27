@@ -1,0 +1,29 @@
+.main_container {
+  margin-top: 50px !important;
+}
+
+h1 {
+  font-family: quickSand-bold !important;
+  font-size: 62px;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  float: right;
+}
+
+.city {
+  color: #00d09c;
+}
+
+.mat-card-title {
+  font-size: 26px;
+  color: #00d09c;
+  text-align: center;
+}
+
+.example-card {
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

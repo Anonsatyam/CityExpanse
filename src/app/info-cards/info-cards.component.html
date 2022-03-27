@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row py-4">
+    <div class="col-4 my-4" *ngFor="let item of products">
+      <mat-card class="example-card" (click)="showMarketDetails(item)" style="cursor: pointer;">
+        <div class="row">
+          <img src="{{item.img}}" style="padding: 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin: 0 auto;" alt="">
+        </div>
+        <mat-card-header>
+          <mat-card-title>{{item.title}}</mat-card-title>
+          <app-detailed-info *ngIf="flag"></app-detailed-info>
+        </mat-card-header>
+        <mat-card-content>
+          <p style="text-align: center;">{{item.subTitle}}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

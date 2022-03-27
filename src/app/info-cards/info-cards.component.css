@@ -1,0 +1,15 @@
+.mat-card-title {
+  font-size: 22px;
+  color: #00d09c;
+  text-align: center;
+}
+
+.example-card {
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.mat-card-header {
+  justify-content: center !important;
+  margin-top: 20px;
+}
